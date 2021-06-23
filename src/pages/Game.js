@@ -67,7 +67,7 @@ componentDidMount(){
                 <div className="col">
                 <Functions />
                 </div>
-                <div className=" col " style={{}}>
+                <div className=" col-6" style={{}}>
                     <AreaMessages/>
                 
                 </div>
