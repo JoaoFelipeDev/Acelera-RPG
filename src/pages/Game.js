@@ -94,21 +94,3 @@ componentDidMount(){
 export default Game;
 
 
-{/* <h4 className="font " style={{marginLeft: '25%'}} >Sala: {data.servidor}<br/> <span>Dono: {data.criador} </span></h4>
-               <hr/>
-               <div>
-               <div className="row">
-                <div className="col">
-                <Functions />
-                </div>
-                <div className=" col-8 " style={{}}>
-                    <AreaMessages/>
-                
-                </div>
-                <div className=" col" style={{ overflow:'auto'}}>
-                   <ListUsers id={this.state.id} />
-                </div>
-               </div>
-               <Messages />
-
-               </div> */}

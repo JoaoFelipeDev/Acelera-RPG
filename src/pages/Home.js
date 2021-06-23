@@ -119,7 +119,7 @@ loadDataUsers = async (id)=>{
    
 render(){
 
-  const {data, addServer, game} = this.state;
+  const {data, addServer} = this.state;
 
   return (
     <BrowserRouter>
@@ -128,7 +128,7 @@ render(){
       <StatusBar  photo={data.URL_photo} name={data.name} />
       {addServer ?<AddServer name={this.state.name} id={this.state.id} setServ={this.loadAddserver}/> : <Servers setServ={this.loadAddserver} />}
       
-      {/* <MenuRight  /> */}
+    
       
     </BrowserRouter>
 )
