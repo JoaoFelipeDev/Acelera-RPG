@@ -62,7 +62,7 @@ export default function () {
             </div>
             <div className=" col-6">
                     
-                        <Form.Control id="message"  onChange={handleMessageChenged} placeholder="Digite sua mensagem" className="message" style={{backgroundColor: '#29292E', color: 'white'}} />
+                        <Form.Control type="text" id="message"  onChange={handleMessageChenged} placeholder="Digite sua mensagem" className="message" style={{backgroundColor: '#29292E', color: 'white'}} />
                         
                     
             </div>
