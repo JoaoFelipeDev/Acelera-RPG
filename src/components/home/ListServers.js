@@ -156,7 +156,7 @@ componentDidMount(){
              
             <div id="servidor"  style={{height:'317px',maxHeight:'317px', overflow:'auto'}}>
 
-            {data.length == 0 ? <h3 className="font">Não há servidores criados ainda crie ja o seu!!</h3> 
+            {data.length == 0 ? <h3 className="font">Não há servidores criados ainda crie já o seu!!</h3> 
             : filterDatas.map(data=>(
               
 
