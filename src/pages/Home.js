@@ -1,5 +1,5 @@
 import React from 'react';
-import '../style/home.css';
+
 import StatusBar from '../components/home/StatusBar';
 import ApiFB from '../ApiFB';
 import { Component} from 'react';
