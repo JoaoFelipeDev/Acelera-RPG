@@ -57,16 +57,16 @@ export default function () {
         <div className="messages relative-top">
             <div className="row">
             <div className="col">
-                    
+                   
 
             </div>
             <div className=" col-6">
                     
-                        <Form.Control type="text" id="message"  onChange={handleMessageChenged} placeholder="Digite sua mensagem" className="message" style={{backgroundColor: '#29292E', color: 'white'}} />
+                        <Form.Control id="message"  onChange={handleMessageChenged} placeholder="Digite sua mensagem" className="message" style={{backgroundColor: '#29292E', color: 'white'}} />
                         
                     
             </div>
-            <div className="col">
+            <div className="col-4">
             <Button onClick={sendMessage} variant='secondary'> Enviar</Button>
             </div>
             </div>

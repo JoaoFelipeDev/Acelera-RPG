@@ -46,7 +46,7 @@ class ListUsers extends Component {
 
     ApiFB.getDatabase().then((db)=>{
         db.ref('servers/'+this.props.id).child('players').on('child_removed', ()=>{
-            console.log(this.props.id);
+            console.log(this.props.id)
          this.loadUsers(this.props.id);
         });
     })
@@ -60,7 +60,7 @@ class ListUsers extends Component {
     render(){
         const {dataUsers} = this.state;
         return (
-            <div style={{width:'200px' }}>
+            <div>
                 <h5>Participantes:</h5>
               {dataUsers.map((data)=>(
                   <div key={data.uid} className="listUsers">
