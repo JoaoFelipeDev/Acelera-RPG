@@ -60,7 +60,7 @@ class ListUsers extends Component {
     render(){
         const {dataUsers} = this.state;
         return (
-            <div>
+            <div style={{width:'200px' }}>
                 <h5>Participantes:</h5>
               {dataUsers.map((data)=>(
                   <div key={data.uid} className="listUsers">

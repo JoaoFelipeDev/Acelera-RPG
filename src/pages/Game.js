@@ -64,7 +64,7 @@ componentDidMount(){
                <div className="card-body">
 
                <div className="row">
-                <div className="col">
+                <div className="col-2">
                 <Functions />
                 </div>
                 <div className=" col-6" style={{}}>
