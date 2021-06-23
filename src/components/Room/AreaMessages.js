@@ -64,9 +64,9 @@ componentDidMount(){
            
            {dataMsg.map((data)=>(
                <div id="msg" className=" styleMessages" key={data.key}>
-                  <samp style={{fontSize: '0.7em',color:'burlywood',marginLeft:'10px'}}> {data.name}:</samp><br/>
-                  <samp style={{marginLeft:'10px'}}> {data.type == "texto" ? data.message : <samp style={{color:'red',marginLeft:'10px'}}>{data.message}</samp>}</samp><br/>
-                  <samp style={{fontSize: '0.6em', color:'slategray',marginLeft:'10px'}} > {data.hora}</samp>
+                  <samp style={{fontSize: '0.7em',color:'burlywood'}}> {data.name}:</samp><br/>
+                  <samp> {data.type == "texto" ? data.message : <samp style={{color:'red'}}>{data.message}</samp>}</samp><br/>
+                  <samp style={{fontSize: '0.6em', color:'slategray'}} > {data.hora}</samp>
                   
                </div>
            ))}
