@@ -46,7 +46,7 @@ class ListUsers extends Component {
 
     ApiFB.getDatabase().then((db)=>{
         db.ref('servers/'+this.props.id).child('players').on('child_removed', ()=>{
-
+            console.log(this.props.id);
          this.loadUsers(this.props.id);
         });
     })
