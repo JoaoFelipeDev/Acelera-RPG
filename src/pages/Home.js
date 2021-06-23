@@ -1,6 +1,5 @@
 import React from 'react';
 import '../style/home.css';
-import MenuRight from '../components/home/MenuRight';
 import StatusBar from '../components/home/StatusBar';
 import ApiFB from '../ApiFB';
 import { Component} from 'react';

@@ -2,8 +2,7 @@ import React, {Component, useEffect, useState} from 'react'
 import ApiFB from '../../ApiFB';
 import { Button } from 'react-bootstrap';
 import '../../style/app.css'
-import { Alert } from 'bootstrap';
-import { Link, Redirect, BrowserRouter } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 
 
 class  ListServers extends Component {

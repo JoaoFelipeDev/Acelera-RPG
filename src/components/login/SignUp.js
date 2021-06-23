@@ -1,6 +1,5 @@
 import React, {  useState } from 'react'
 import { Container, Form, Button } from 'react-bootstrap';
-import axios from 'axios';
 import { BrowserRouter } from 'react-router-dom';
 import ApiFB from '../../ApiFB';
 

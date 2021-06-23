@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import {Container} from 'react-bootstrap';
-import { useParams } from 'react-router-dom';
+
 import ApiFB from '../ApiFB';
 import AreaMessages from '../components/Room/AreaMessages';
 import Functions from '../components/Room/Functions'

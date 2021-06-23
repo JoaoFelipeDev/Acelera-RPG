@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
-import {ListGroup} from 'react-bootstrap';
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faDiceD20,  faHandPaper, faMicrophone, faDoorOpen} from '@fortawesome/free-solid-svg-icons';
+import {  faDoorOpen} from '@fortawesome/free-solid-svg-icons';
 import ApiFB from '../../ApiFB';
 import  d20 from '../../image/d20.png';
 import  d12 from '../../image/d12.png';

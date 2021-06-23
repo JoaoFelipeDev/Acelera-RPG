@@ -3,16 +3,13 @@ import { Button, Image, Form } from 'react-bootstrap';
 import ApiFB from '../../ApiFB';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars,
-    faHome, 
-     faUserFriends, 
-     faUser,
+    
      faEnvelope,
-     faEnvelopeOpen,
-     faCommentDots,
+     
      faSignOutAlt,
      faBell,
      faCogs,
-     faInfoCircle,
+     
      faCheck,
      faTimesCircle
 
